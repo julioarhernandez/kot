@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Karla:400,700");
 /* :: 2.0 Import All CSS Plugins */
 @import url(./bootstrap.min.css);
+@import url(./elegantFont.css);
 @import url(./classy-nav.css);
 @import url(./font-awesome.min.css);
 @import url(./owl.carousel.min.css);
