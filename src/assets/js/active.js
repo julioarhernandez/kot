@@ -40,8 +40,8 @@
       loop: true,
       dots: false,
       autoplay: true,
-      autoplayTimeout: 5000,
-      smartSpeed: 1000
+      autoplayTimeout: 8000,
+      smartSpeed: 1500
     });
 
     welcomeSlide.on('translate.owl.carousel', function () {
@@ -78,8 +78,8 @@
       nav: true,
       navText: ['<i class="arrow_left"></i>', '<i class="arrow_right"></i>'],
       autoplay: true,
-      autoplayTimeout: 5000,
-      smartSpeed: 1000,
+      autoplayTimeout: 8000,
+      smartSpeed: 1500,
       animateIn: 'fadeIn',
       animateOut: 'fadeOut'
     });
