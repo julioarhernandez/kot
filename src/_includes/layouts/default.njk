@@ -13,6 +13,7 @@
   <link rel="icon" href="/assets/img/core-img/favicon.ico">
   <!-- Core Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 </head>
 
 <body>
@@ -35,8 +36,8 @@
               </div>
               <!-- Top Header Content -->
               <div class="top-header-meta text-right">
-                <a href="#" data-toggle="tooltip" data-placement="bottom" title="infodeercreative@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: infodeercreative@gmail.com</span></a>
-                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +84 223 9000</span></a>
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="{{ global.email }}"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: {{ global.email }}</span></a>
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="{{ global.phone }}"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: {{ global.phone }}</span></a>
               </div>
             </div>
           </div>
@@ -99,7 +100,7 @@
   <!-- ##### Footer Area Start ##### -->
   <footer class="footer-area">
     <!-- Main Footer Area -->
-    <div class="main-footer bg-img bg-overlay section-padding-80-0" style="background-image: url(/assets/img/bg-img/footer.jpg);">
+    <div class="main-footer bg-img bg-overlay bg-overlay-darker section-padding-80-0" style="background-image: url(/assets/img/bg-img/footer.jpg);">
       <div class="container">
         <div class="row">
 
@@ -225,6 +226,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   <script src="/assets/js/jarallax-video.min.js"></script>
   <!-- Active js -->
   <script src="/assets/js/active.js"></script>
+  <!-- Fancy box -->
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 </body>
 
 </html>
