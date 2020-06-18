@@ -956,7 +956,9 @@ input:focus {
           .testimonial-slides .single-slide .testimonial-thumbnail-name .testimonial-name h6 {
             font-size: 14px; } }
 .testimonial-slides .owl-next,
-.testimonial-slides .owl-prev {
+.gallery-slides .owl-next,
+.testimonial-slides .owl-prev,
+.gallery-slides .owl-prev {
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -1852,5 +1854,9 @@ select.form-control {
 
 textarea.form-control {
   height: 100px; }
+
+.gallery-thumbnail{
+  padding: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */

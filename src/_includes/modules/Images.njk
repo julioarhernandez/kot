@@ -1,0 +1,24 @@
+  <!-- ##### Testimonial Area Start ##### -->
+  <section class="gallery-area bg-img bg-overlay section-padding-100 jarallax" style="background-image: url('/assets/img/bg-img/8.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!-- Testimonial Slides -->
+          <div class="gallery-slides owl-carousel">
+
+              {% for item in gallery.images %}
+            <!-- Single Slide -->
+            <div class="single-slide">
+                <div class="gallery-thumbnail">
+                    <a data-fancybox="gallery" href="{{item}}"><img src="{{item}}" alt=""></a>
+                </div>
+            </div>
+              {% endfor %}
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ##### Testimonial Area End ##### -->
