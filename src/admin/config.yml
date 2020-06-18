@@ -27,6 +27,14 @@ collections: # A list of collections the CMS should be able to edit
             widget: "object"
             fields:
               - {label: Src, name: src, widget: image}
-             
+      - label: "Image Gallery"
+        name: "image-gallery"
+        file: "src/_data/gallery.json"
+        fields:
+          - label: "Gallery Images"
+            name: "image"
+            widget: "list"
+            fields:
+              - {label: Image, name: image, widget: image}
 
 
