@@ -3,7 +3,6 @@ backend:
   branch: master
 
 media_folder: "assets/img" # Folder where user uploaded files should go
-public_folder: "/assets/img" # Folder where user uploaded files should go
 
 collections: # A list of collections the CMS should be able to edit
   - label: "Home"
@@ -29,7 +28,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Src, name: src, widget: image}
       - label: "Image Gallery"
         name: "image-gallery"
-        file: "./src/_data/gallery.json"
+        file: "_data/gallery.json"
         fields:
           - label: "Gallery Images"
             name: "image"
