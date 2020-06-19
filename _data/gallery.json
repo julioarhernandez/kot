@@ -1,6 +1,6 @@
 {
   "image": [
-    "assets/img/i1.jpg",
-    "assets/img/i1a.jpg"
+    "/assets/img/i1.jpg",
+    "/assets/img/i1a.jpg"
   ]
 }
