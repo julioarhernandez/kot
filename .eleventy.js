@@ -1,5 +1,4 @@
-const pluginSass = require("eleventy-plugin-sass");
-
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig
@@ -7,6 +6,9 @@ module.exports = function (eleventyConfig) {
         .addPassthroughCopy("./src/assets/")
         .addPassthroughCopy("./src/admin")
         .addLayoutAlias('default', 'layouts/default.njk');
+
+    eleventyConfig.addPlugin(eleventyNavigationPlugin)
+
     
     return {
         passthroughFileCopy: true,
