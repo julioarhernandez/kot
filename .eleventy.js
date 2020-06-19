@@ -15,7 +15,7 @@ module.exports = function (eleventyConfig) {
           // This uses the original image width
           widths: [350],
           urlPath: "/assets/img/optim/",
-          outputDir: "assets/img/optim/",
+          outputDir: "_site/assets/img/optim/",
           // widths: [200] // output 200px maxwidth
           // widths: [200, null] // output 200px and original width
         });
