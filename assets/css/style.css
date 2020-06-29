@@ -259,6 +259,10 @@ input:focus {
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 0; }
+  .section-heading h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+    margin-left: -3px; }
   .section-heading h2 {
     margin-bottom: 10px;
     font-size: 36px;
@@ -270,6 +274,8 @@ input:focus {
       .section-heading h2 {
         font-size: 30px; } }
     .section-heading h2 span {
+      color: #77b122; }
+    .section-heading h1 span {
       color: #77b122; }
     @media only screen and (max-width: 767px) {
       .section-heading h2 {
