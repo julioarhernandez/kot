@@ -580,6 +580,13 @@ img {
   margin-left: 0;
   margin-right: 15px; }
 
+.classy-navbar.classy-campaign {
+  justify-content: center !important;
+}
+.classy-navbar.classy-campaign .nav-brand{
+  margin-right: 0;
+}
+
 /* Fallback Responsive CSS */
 
 /*# sourceMappingURL=classy-nav.css.map */

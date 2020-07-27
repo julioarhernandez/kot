@@ -158,4 +158,18 @@
   if(browserWindow.width() > 767) {
     new WOW().init();
   }
+
+
+  // :: 12.0 Scroll To
+    $('.scrollTo').on('click', function(e){
+        e.preventDefault();
+        const thisElement = $(this);
+        const targetElement = $(thisElement.attr('href'));
+        if (targetElement.length){
+            $("html, body").animate({
+                scrollTop: targetElement.offset().top
+            },1000);
+        }
+
+    });
 })(jQuery);
