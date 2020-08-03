@@ -25,6 +25,15 @@
 
     });
 
+    // :: Replace Img background url 512x512 by 1440x1440
+    $('.single-welcome-slides.gcampaign').each(function(){
+      const thisElement = $(this);
+      const imageUrl = thisElement.attr('style');
+      if ($(window).width() > 768){
+        const newImgUrl = imageUrl.replace('512x512', '1440x1440');
+        thisElement.attr('style', newImgUrl);  
+      }
+    });
 
   // :: 2.0 Tooltip Active Code
   if($.fn.tooltip) {
@@ -116,6 +125,20 @@
               nav: true,
           }
       }
+    });
+
+    // Campaign carousel
+    $('.campaign-slides').owlCarousel({
+      items: 1,
+      margin: 0,
+      loop: true,
+      dots: true,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      smartSpeed: 1500,
+      animateIn: 'fadeIn',
+      animateOut: 'fadeOut',
+      
     });
   }
 
